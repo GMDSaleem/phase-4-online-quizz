@@ -1,0 +1,53 @@
+.btn{
+    border-radius: 4;
+}
+.h1{
+    text-decoration-color: yellowgreen;
+}
+
+
+.option{
+    background-color:#23803a7d;
+    font-size:20px;
+    padding:10px;
+    margin:3px;
+}
+    #quiz .options input[type=checkbox] {
+        height:26px;
+        width:26px;
+    }
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+
+.result-question{
+    background-color:rgb(73, 152, 204);
+    margin:4px;
+    padding:6px;
+}
+
+@media only screen and (max-width: 480px) {
+    h1,.h1{
+        font-size:22px;
+        text-align: center;
+    }
+    h2,.h2{
+        font-size:20px;
+    }
+    h3,.h3{
+        font-size:18px;
+    }
+    .option {
+        font-size: 14px;
+        padding: 6px;
+    }
+    footer{
+        opacity: 0.5;
+        height:3rem;
+    }
+    .navbar{
+            opacity: 0.8;
+    }
+}
